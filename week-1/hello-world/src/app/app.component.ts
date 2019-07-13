@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  app.component.ts (WK 1)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 13 July 2019
+; Description: Controls app component flow
+;===========================================
+*/
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +16,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Hello World!';
 }

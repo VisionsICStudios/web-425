@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  test.ts (WK 1)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 13 July 2019
+; Description: Controls application testing
+;===========================================
+*/
+
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/dist/zone-testing';
