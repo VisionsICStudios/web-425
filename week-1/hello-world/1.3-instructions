@@ -1,0 +1,13 @@
+Exercise 1.3 – Angular CLI
+Instructions
+Using the Hello World in Angular Example, complete the following
+1. Using the CLI, navigate to your week-1 directory and create a new Angular project and name it
+hello-world
+2. Add a reference to Bootstrap 4 in the index.html file
+3. Add a Bootstrap 4 navbar to the index.html file
+4. Replace the title field in the app.component.ts file with a message field and value of “Hello
+World!”
+5. Replace the contents of your app.component.html file with a single h1 tag and the message field
+reference
+6. Run the application (ng serve -o || npm start)
+7. Take a screenshot of the application running with the outputted message 

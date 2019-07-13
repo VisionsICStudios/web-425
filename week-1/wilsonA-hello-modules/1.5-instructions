@@ -1,0 +1,21 @@
+Assignment 1.5 – Modules
+Instructions
+Complete the following:
+1. Using Angular CLI, create a new Angular application under week one’s directory and name it
+<yourLastName>-hello-modules
+2. Recreate the hello-modules example, but with your own AppComponent ShippingComponent
+messages
+3. Take a screenshot of the application running in a browser
+
+##############################################################################################
+
+Module Example
+
+From the CLI create a new Angular project
+ng new hello-modules
+Navigate to the generated project
+cd hello-modules
+Generate a new module and name it shipping
+ng g m shipping
+Generate a new component with inline templates, inline styles, and add it to the modules directory
+ng g c shipping -it -is -m shipping (for more information regarding Angular CLI commands, please visit the weekly resource documents)
