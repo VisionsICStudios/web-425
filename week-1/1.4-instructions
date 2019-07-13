@@ -1,0 +1,13 @@
+Assignment 1.4 – TypeScript
+Instructions
+Using the TypeScript Example, complete the following
+1. Add a new subdirectory under week-1 and name it es5-typescript-example
+2. Add a new file and name it <yourLastName>-<assignmentName>.ts
+3. Declare two variables (supply your own default values)
+4. Create one function with two string parameters and return a concatenated string of the
+parameterized values
+5. Call the function using the console.log() function and output the results
+6. Transpile the TypeScript code to ES5 JavaScript
+7. Take a screenshot your CLI window with the transpile command
+8. Take a screenshot of your folder structure, illustrating both files (.ts and .js)
+9. Take a screenshot of the outputted message 
