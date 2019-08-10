@@ -1,0 +1,19 @@
+/*
+============================================
+; Title:  home.component.css (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD In Action CSS file.
+;===========================================
+*/
+
+.wrapper {
+  padding: 70px 70px 0;
+  display: block;
+  color: black;
+}
+
+.parent { height: 100px; }
+.left { background-color: rgb(129, 231, 231); }
+.right { background-color: rgb(241, 192, 119); }

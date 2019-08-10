@@ -1,0 +1,23 @@
+/*
+============================================
+; Title:  app.component.css (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD Toolbar CSS file.
+;===========================================
+*/
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
+
+.wrapper {
+  padding: 70px 70px 0;
+  display: block;
+}

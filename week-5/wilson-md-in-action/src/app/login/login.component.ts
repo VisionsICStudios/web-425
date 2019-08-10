@@ -1,0 +1,39 @@
+/*
+============================================
+; Title:  login.component.ts (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD In Action TS file.
+;===========================================
+*/
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
+})
+export class LogInComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  title = 'app';
+
+  username: string
+  password: string
+
+  onClear() {
+    this.username = ''
+    this.password = ''
+  }
+
+  onSubmit() {
+    alert('Username: ' + this.username + '\nPassword: ' + this.password)
+  }
+
+}

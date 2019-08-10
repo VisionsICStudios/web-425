@@ -1,0 +1,18 @@
+/*
+============================================
+; Title:  app.component.css (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD In Action CSS file.
+;===========================================
+*/
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}

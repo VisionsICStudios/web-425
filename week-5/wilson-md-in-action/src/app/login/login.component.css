@@ -1,0 +1,22 @@
+/*
+============================================
+; Title:  login.component.css (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD In Action CSS file.
+;===========================================
+*/
+
+/* Form Styles */
+/* When the input is not focused */
+
+.frm-login { width: 50%;  margin: 0 auto; }
+.frm-login-panel { background-color: darkslategrey; border: 1px solid black; box-shadow: darkslategrey; }
+.frm-login-header { background-color: steelblue; }
+.frm-login-toolbar { background-color: steelblue; color: white; }
+.frm-login-body { display: flex; flex-direction: column; color: white; margin-top: 15px; }
+.btn-login { background-color: steelblue; color: white; }
+.frm-login-actions { text-align: right; }
+/* Global */
+.wrapper { width: 100%; margin-top: 5%; }

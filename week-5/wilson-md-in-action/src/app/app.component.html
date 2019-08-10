@@ -1,0 +1,51 @@
+<!--
+/*
+============================================
+; Title:  app.component.html (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD In Action HTML file.
+;===========================================
+*/
+-->
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <mat-toolbar class="menu" role="header" color="accent">
+      <mat-toolbar-row>
+        <button mat-button class="toolbar__icon-button mat-button">
+          <mat-icon>web</mat-icon>
+          <span style="margin-left: 5px">WEB 425</span>
+        </button>
+        <button mat-button class="mat-button" [routerLink]="['/']">
+          Home
+        </button>
+        <button mat-button class="mat-button" [routerLink]="['/login']">
+          Log In
+        </button>
+
+        <div fxFlex></div>
+
+        <!-- User Profile -->
+        <button class="toolbar__icon-button" [matMenuTriggerFor]="menu" mat-icon-button>
+          <mat-icon>account_circle</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>perm_contact_calendar</mat-icon>
+            <span>My Profile</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>settings</mat-icon>
+            <span>Settings</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>exit_to_app</mat-icon>
+            <span>Logout</span>
+          </button>
+        </mat-menu>
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>

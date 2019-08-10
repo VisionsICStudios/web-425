@@ -1,0 +1,16 @@
+/*
+============================================
+; Title:  styles.css (WK 5)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 09 August 2019
+; Description: MD Login CSS file.
+;===========================================
+*/
+
+/* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+body { margin: 0; }
+
