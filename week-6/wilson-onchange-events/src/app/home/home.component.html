@@ -1,0 +1,51 @@
+<!--
+/*
+============================================
+; Title:  home.component.html (WK 6)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 12 August 2019
+; Description: OnChange Events HTML file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+-->
+
+<div class="card-container">
+    <mat-card class="home-card">
+      <mat-card-header>
+        <div mat-card-avatar class="avatar-header-image"></div>
+        <mat-card-title> Welcome Home! </mat-card-title>
+        <mat-card-subtitle> OnChange Events App Home Page </mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+
+        <div class="user-input">
+          <p>
+          Enter in a user below:
+          </p>
+
+          <div class="parent">
+
+              <h2>Parent</h2>
+              <div>
+                Greeting: <input type="text" [(ngModel)]="myGreeting">
+              </div>
+
+              <div>
+                User name: <input type="text" [(ngModel)]="myUser.name">
+              </div>
+
+              <app-child [greeting]="myGreeting" [user]="myUser"></app-child>
+            </div>
+
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
