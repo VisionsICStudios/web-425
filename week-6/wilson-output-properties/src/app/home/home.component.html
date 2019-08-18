@@ -1,0 +1,40 @@
+<!--
+/*
+============================================
+; Title:  home.component.html (WK 6)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 12 August 2019
+; Description: Output Properties HTML file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+-->
+
+<div class="card-container">
+  <mat-card class="home-card">
+    <mat-card-header>
+      <div mat-card-avatar class="avatar-header-image"></div>
+      <mat-card-title> Welcome Home! </mat-card-title>
+      <mat-card-subtitle> Stock Price App Home Page </mat-card-subtitle>
+    </mat-card-header>
+    <img class="home-img" mat-card-image src="../../assets/images/pexels-home.jpeg" alt="Photo of a house">
+    <mat-card-content>
+      <p>
+      Check out Aaron's newly developed and improved Stock Prices Application. Come here if you need
+      to find out a price of a particular stock price.
+      </p><br>
+      <div class="stock-output">
+
+        <span class="output-title">AppComponent received:</span><br>
+
+        <app-price-quote (lastPrice)="priceQuoteHandler($event)"></app-price-quote>
+
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

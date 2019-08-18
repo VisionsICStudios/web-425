@@ -1,0 +1,23 @@
+<!--
+/*
+============================================
+; Title:  price-quote.component.html (WK 6)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 12 August 2019
+; Description: Output Properties HTML file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+-->
+
+<strong class="span-stock">
+   <br>
+  <span class="span-title">Inside PriceQuoteComponent:</span>
+  <br>
+  <br>
+  <span class="span-symbol">Stock: {{ priceQuote?.stockSymbol }}</span>
+  <br>
+  <br>
+  <span class="span-price">Price: {{ priceQuote?.lastPrice | currency: 'USD' }}</span>
+</strong>

@@ -1,0 +1,50 @@
+/*
+============================================
+; Title:  home.component.css (WK 6)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 12 August 2019
+; Description: Input Properties CSS file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-card {
+  max-width: 320px;
+  min-height: 75vh;
+  margin: 0 auto;
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 6px 10px 3px rgba(0, 0, 0, 0.205);
+  box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4);
+}
+
+.avatar-header-image {
+  background-image: url('../../assets/images/pexels-home-avatar.jpg');
+  background-size: cover;
+}
+
+.home-img {
+  height: 25vh;
+  max-width: 320px;
+}
+
+.stock-input {
+  max-width: 320px;
+  max-height: 200px;
+  background-color: rgb(200, 217, 236);
+  padding: 10px 0 40px 0;
+}
+
+input { width: 300px; }
+
+

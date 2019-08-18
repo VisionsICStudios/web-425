@@ -1,0 +1,13 @@
+/*
+============================================
+; Title:  order.component.css (WK 6)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 12 August 2019
+; Description: Input Properties CSS file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+:host { position: relative; top: 20px; background: rgb(29, 2, 128); padding: 10px 0 10px 0; width: 300px; }
+span {  color: rgb(252, 249, 249); }

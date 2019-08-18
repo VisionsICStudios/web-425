@@ -1,0 +1,17 @@
+/*
+============================================
+; Title:  price-quote.component.css (WK 6)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 12 August 2019
+; Description: Output Properties CSS file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+:host { position: relative; top: 20px; height: 400px; }
+strong {  color: rgb(252, 249, 249); }
+.span-stock { display: block; background: rgb(29, 2, 128); padding: 10px 0 10px 10px; width: 300px; height: 150px; }
+.span-title { padding: 10px 0 40px 0; }
+.span-symbol { padding: 10px 0 40px 0; }
+.span-price { padding: 10px 0 40px 0; }
