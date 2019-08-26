@@ -1,0 +1,39 @@
+/*
+============================================
+; Title:  profile.component.css (WK 7)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 20 August 2019
+; Description: Form Validation CSS file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  max-width: 320px;
+  min-height: 75vh;
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 6px 10px 3px rgba(0, 0, 0, 0.205);
+  box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4);
+  margin: 0 auto;
+}
+
+.avatar-header-image {
+  background-image: url('../../assets/images/aaron-wilson.png');
+  background-size: cover;
+}
+
+.profile-img {
+  height: 25vh;
+  max-width: 320px;
+}
