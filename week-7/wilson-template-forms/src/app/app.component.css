@@ -1,0 +1,26 @@
+/*
+============================================
+; Title:  app.component.css (WK 7)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 20 August 2019
+; Description: Template Forms CSS file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+.container { position: fixed; width: 100vw; height: 100vh; }
+.toolbar { background-color: rgb(243, 243, 221); color: rgb(8, 8, 8); border-bottom-color: rgb(8, 8, 8); }
+.menu { height: 50px; }
+.motto { height: 25px; background-color: darkblue; color: white; }
+
+a { margin-left: 5px; }
+
+.nav-button { margin-right: 5px; }
+.sidenav { width: 200px; background-color: white;
+  -webkit-box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 6px 10px 3px rgba(0, 0, 0, 0.205);
+  box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4); margin-right: 10px; }
+.links { color: rgb(8, 8, 8); }
+.content { height: 95vh; background-color: white; }
+
