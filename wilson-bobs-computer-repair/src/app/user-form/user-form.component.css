@@ -1,0 +1,27 @@
+/*
+============================================
+; Title:  user-form.component.css (WK 9)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 2 September 2019
+; Description: Bob's Computer Repair Shop App
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+.form-example, .form-group {
+  display: flex;
+  flex-direction: column;
+  max-height: 275px;
+  padding: 10px 0 20px 10px;
+}
+
+.form-example > *, .form-group > * {
+  width: 65%;
+}
+
+input {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 4px;
+}

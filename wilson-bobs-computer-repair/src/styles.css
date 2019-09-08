@@ -1,0 +1,16 @@
+/*
+============================================
+; Title:  styles.css (WK 9)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 2 September 2019
+; Description: Bob's Computer Repair Shop App
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body { height: 100%; }
+body { position: relative; font-family: Roboto, "Helvetica Neue", sans-serif; left: 0; margin: 10px 0 0 0; }

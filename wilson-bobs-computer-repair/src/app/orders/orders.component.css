@@ -1,0 +1,29 @@
+/*
+============================================
+; Title:  orders.component.css (WK 9)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 2 September 2019
+; Description: Form Validation CSS file.
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+
+.form-container {
+  width: 100%;
+}
+
+.form-card {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: lighter;
+}
+
+h2 {
+  font-weight: lighter;
+}

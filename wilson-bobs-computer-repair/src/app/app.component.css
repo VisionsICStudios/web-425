@@ -1,0 +1,30 @@
+/*
+============================================
+; Title:  app.component.css (WK 9)
+; Author: Professor Krasso
+; Modified By: Aaron Wilson
+; Date: 2 September 2019
+; Description: Bob's Computer Repair Shop App
+; Credits: All images provided by Pexels.com
+;===========================================
+*/
+
+.container { position: fixed; width: 100vw; height: 100vh; margin: 0; }
+.toolbar { height: 125px; background-color: rgb(243, 243, 221); color: rgb(8, 8, 8); border-bottom-color: rgb(8, 8, 8); }
+img { position: relative; top: 5px; margin: 0 auto; }
+.menu { height: 125px; }
+.hamburger { position: relative; top: -22px; border: 1px solid rgba(0,0,0,0.4); }
+.motto { position: relative; top: -35px;  background-color: darkblue; color: white; }
+.motto span { position: relative; top: 15px; height: 50px; text-indent: -175px; margin: 0 auto; }
+
+.side-menu { margin-top: 10px; }
+a { margin-left: 5px; }
+
+.nav-button { position: relative; margin-right: 5px; }
+.sidenav { width: 200px; background-color: white;
+  -webkit-box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 6px 10px 3px rgba(0, 0, 0, 0.205);
+  box-shadow: 5px 6px 10px 3px rgba(0,0,0,0.4); margin-right: 10px; }
+.links { position: relative; top: -20px; color: rgb(8, 8, 8); }
+.lower-content { margin: 15px 0 0 0; }
+.content { height: 95vh; background-color: white; }
